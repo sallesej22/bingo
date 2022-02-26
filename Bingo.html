@@ -1,0 +1,303 @@
+
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Warner Bingo</title>
+  
+  <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"!-->
+
+  
+  
+<style>
+body {
+  box-sizing: border-box;
+  background: #162338;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+main {
+  width: 33rem;
+  margin: 33px auto;
+  border: 3px solid #84766b;
+  border-radius: 15px;
+  background: transparent;
+}
+
+
+h1 {
+  padding-top: 1rem;
+  color: white;
+  font-size: 2rem;
+  text-align: center;}
+
+h1 span {
+  display: inline-block;
+  width: 5.7rem;
+  height: 5.7rem;
+  font-size: 2.7em;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 30rem;
+  height: 30rem;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  width: 5.7rem;
+  height: 5.7rem;
+  border: 3px solid #84766b;
+  border-radius: 15px;
+  background: blue;
+}
+label input {
+  display: none;
+}
+label input:checked + .mark {
+  background: transparent;
+  color: white;
+}
+label .mark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 5.34rem;
+  height: 5.34rem;
+  padding: 0.2rem;
+  border-radius: 12px;
+  background: black;
+  font-size: 0.689em;
+  text-align: center;
+}
+
+small {
+  display: block;
+  padding: 1em;
+  text-align: center;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" >
+  <main>
+  <h1>
+    Warner<br>
+    <span>B</span>
+    <span>I</span>
+    <span>N</span>
+    <span>G</span>
+    <span>O</span>
+  </h1>
+  <!-- Warning: the following code sucks, but it works, damn it! -->
+  <div class="grid">
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>1</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>2</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>3</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>4</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>5</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>6</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>7</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>8</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>9</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>10</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>11</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>12</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark">Starts Sentence Loud and ends it quietly (Free Spot)</div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>14</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>15</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>16</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>17</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>18</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>19</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>20</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>21</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>22</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>23</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>24</span></div>
+    </label>
+    <label>
+      <input type="checkbox">
+      <div class="mark"><span>25</span></div>
+    </label>
+  </div>
+  
+</main>
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+      <script id="rendered-js" >
+var lines = [
+"tangent",
+"Changes the plan",
+"“Do you wanna hear a story”",
+"“Alright”",
+"It's been a while since I have seen you",
+"Doesn’t teach physics",
+"Plays games on his computer",
+"Hangman",
+"“Ok”",
+"Trips",
+"“SO!”",
+"Side lesson",
+"Rant",
+"We need to get this done",
+"Depressing fact",
+"Student Dares him to do something and he does it",
+"You will have plenty of time",
+"Rockets",
+"Sorry",
+"“If we knew”",
+"Couple Things",
+"'Threatens students'",
+"Tells something dark and then awkwardly laughs", 
+"geeks out",
+"Need more Ideas1",
+"Need more Ideas2",
+"Need more Ideas3",
+
+];
+
+
+// Fisher-Yates Shuffle
+var shuffle = function (array) {
+  var m = array.length,t,i;
+  // While there remain elements to shuffle
+  while (m) {if (window.CP.shouldStopExecution(0)) break;
+    // Pick a remaining element
+    i = Math.floor(Math.random() * m--);
+    // And swap it with the current element.
+    t = array[m];
+    array[m] = array[i];
+    array[i] = t;
+  }window.CP.exitedLoop(0);
+  return array;
+};
+// Did I just steal this code from Wikipedia, or something?
+
+ var insertToCard = function (array) {
+  var slot = 25;
+  while (slot) {if (window.CP.shouldStopExecution(1)) break;
+    $("label:nth-child(" + slot + ") .mark span").text(array[slot + 1]);
+    slot--;
+  }window.CP.exitedLoop(1);
+};
+
+$(document).ready(function () {
+  var shuffledLines = shuffle(lines);
+  insertToCard(shuffledLines); // #hellaswag
+  $("#seed").text(Math.floor(Math.random() * 100000000)); // TODO
+});
+//# sourceURL=pen.js
+    </script>
+
+  
+
+</body>
+
+</html>
+ 
