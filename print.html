@@ -16,8 +16,8 @@
 <style>
 body {
   box-sizing: border-box;
-  background: #162338;
-  color: white;
+  background: white;
+  color: black;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -42,7 +42,7 @@ main {
 
 h1 {
   padding-top: 1rem;
-  color: white;
+  color: black;
   font-size: 2rem;
   text-align: center;}
 
@@ -68,7 +68,7 @@ label {
   height: 5.7rem;
   border: 3px solid #84766b;
   border-radius: 15px;
-  background: blue;
+  background: black;
 }
 label input {
   display: none;
@@ -85,7 +85,7 @@ label .mark {
   height: 5.34rem;
   padding: 0.2rem;
   border-radius: 12px;
-  background: black;
+  background: white;
   font-size: 0.689em;
   text-align: center;
 }
@@ -95,8 +95,8 @@ small {
   padding: 1em;
   text-align: center;
 }
-
- @media print {
+  
+  @media print {
                .noprint {
                   visibility: hidden;
                }
@@ -104,14 +104,14 @@ small {
 
 .center {
   margin: auto;
-  width: 40%;
+  width: 60%;
   padding: 10px;
 }
 
 .noprint {
-  background-color: black;
+  background-color: lightgrey;
   border: none;
-  color: white;
+  color: black;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -119,6 +119,7 @@ small {
   border-radius: 8px;
   
 }
+
 
 </style>
 
@@ -251,12 +252,12 @@ small {
     </label>
   </div>
 
- <div class="center">
+<div class="center">
   <button class="noprint" type="button" onclick="window.location.reload()">Reload</button>
-   <button class="noprint" onclick="window.location.href='print.html';">Printable Version</button>
+   <button class="noprint" onclick="window.location.href='index.html';">Normal Version</button>
+   <button class="noprint" onclick="window.print()">Print this page</button>
 
 </div>
-
   
 </main>
     <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
